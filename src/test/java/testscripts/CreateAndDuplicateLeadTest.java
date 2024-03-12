@@ -12,7 +12,7 @@ public class CreateAndDuplicateLeadTest extends BaseClass
 	@Test
 	public void createAndDuplicateLeadTest() throws InterruptedException
 	{
-		home.clickLeads();
+		home.clickLeads();//navigate to leads home page
 		soft.assertEquals(lead.getPageHeader(),"Leads");
 		lead.clickPlusButton();//navigate to leads plus button
 		soft.assertEquals(createlead.getPageHeader(),"Creating New Lead");

@@ -11,7 +11,7 @@ public class createContactTest extends BaseClass {
 	@Test
 	public void CreateContactTest() throws InterruptedException
 	{
-		home.clickContacts();
+		home.clickContacts();//naviagte to home page of contact
 		soft.assertEquals(contact.getPageHeader(),"Contacts");
 		contact.clickPlusButton();
 		soft.assertEquals(createContact.getPageHeader(),"Creating New Contact");

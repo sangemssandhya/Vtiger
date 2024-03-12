@@ -12,7 +12,7 @@ public class createContactWithOrgTest extends BaseClass {
 	public void CreateContactWithOrgTest() throws InterruptedException
 	
 	{
-		home.clickContacts();
+		home.clickContacts(); //navigate to contacts home page
 		soft.assertEquals(contact.getPageHeader(),"Contacts");
 		contact.clickPlusButton();
 		soft.assertEquals(createContact.getPageHeader(),"Creating New Contact");
