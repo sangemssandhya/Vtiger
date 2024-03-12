@@ -9,7 +9,7 @@ import genericLibraries.IConstantPath;
 
 public class createContactTest extends BaseClass {
 	@Test
-	public void createContactTest() throws InterruptedException
+	public void CreateContactTest() throws InterruptedException
 	{
 		home.clickContacts();
 		soft.assertEquals(contact.getPageHeader(),"Contacts");

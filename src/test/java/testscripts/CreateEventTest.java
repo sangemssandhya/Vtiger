@@ -10,7 +10,7 @@ import genericLibraries.IConstantPath;
 public class CreateEventTest extends BaseClass {
 	
 	@Test
-	public void CreateEventTest() throws InterruptedException {
+	public void createEventTest() throws InterruptedException {
 		Map<String, String>map=excel.readFromExcel("Create New Event","EventsTestData");
 		home.selectFromQuickCreate(web, map.get("Quick Create"));
 		String subject=map.get("Subject")+jutil.generateRandomNum(100);

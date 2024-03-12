@@ -10,11 +10,11 @@ import genericLibraries.IConstantPath;
 public class CreateAndDuplicateLeadTest extends BaseClass
 {
 	@Test
-	public void CreateAndDuplicateLeadTest() throws InterruptedException
+	public void createAndDuplicateLeadTest() throws InterruptedException
 	{
 		home.clickLeads();
 		soft.assertEquals(lead.getPageHeader(),"Leads");
-		lead.clickPlusButton();
+		lead.clickPlusButton();//navigate to leads plus button
 		soft.assertEquals(createlead.getPageHeader(),"Creating New Lead");
 		Map<String,String>map=excel.readFromExcel("Create and Duplicate Lead","LeadsTestData");
 		String lastName=map.get("Last Name")+jutil.generateRandomNum(100);

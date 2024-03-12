@@ -11,7 +11,7 @@ import genericLibraries.IConstantPath;
 public class createorgWithTypeAndIndustryTest extends BaseClass
 {
 @Test
-public void createorgWithTypeAndIndustryTest() throws InterruptedException 
+public void CreateorgWithTypeAndIndustryTest() throws InterruptedException 
 {
 	SoftAssert soft=new SoftAssert();
 	home.clickOrganizations();

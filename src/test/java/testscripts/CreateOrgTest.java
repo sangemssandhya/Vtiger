@@ -3,7 +3,6 @@ package testscripts;
 import java.util.Map;
 
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
 
 import genericLibraries.BaseClass;
 import genericLibraries.IConstantPath;

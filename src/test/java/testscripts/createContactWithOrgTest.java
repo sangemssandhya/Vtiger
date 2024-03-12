@@ -9,7 +9,7 @@ import genericLibraries.IConstantPath;
 
 public class createContactWithOrgTest extends BaseClass {
 	@Test
-	public void createContactWithOrgTest() throws InterruptedException
+	public void CreateContactWithOrgTest() throws InterruptedException
 	
 	{
 		home.clickContacts();
